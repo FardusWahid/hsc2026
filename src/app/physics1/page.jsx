@@ -7,9 +7,7 @@ import { GrDocumentPdf } from "react-icons/gr";
 
 const Folder = async () => {
      const session = await getServerSession(option);
-    if(session?.user?.role !== "pro"){
-     redirect("/denied")
-  }
+    
   
    
   return (

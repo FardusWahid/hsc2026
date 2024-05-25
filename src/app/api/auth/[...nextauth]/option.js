@@ -12,7 +12,7 @@ export const option = {
 
             let userRole = "unpaid";
             const adminEmails = [];
-            const preEmails = ["farduswahid31@gmail.com"];
+            const preEmails = [];
             const proUsers = ["farduswahid87@gmail.com"];
 
 
@@ -42,7 +42,7 @@ export const option = {
 
     session: {
         strategy: 'jwt',
-        maxAge: 43200,
+        maxAge: 86400,
     },
 
     callbacks: {
