@@ -12,27 +12,27 @@ const Folder = async () => {
    
   return (
     <div>
-<h1 className='font-sans text-center text-3xl md:text-4xl italic font-extrabold mt-7 mb-0'>ACS Mathematics Academic Cycle 1 </h1>
+<h1 className='poet text-center text-3xl md:text-4xl  tracking-wide my-6 md:mb-14'>ACS Mathematics Academic Cycle 1 </h1>
 
 
 <section className='mt-2'>
 
   <Sub
-  name="Matrix & Determinant"
+  name="Straight Line"
   route="/math1/m1"
   />
     <Sub
-  name="Straight Line"
+  name="Circles"
   route="/math1/m2"
   />
     <Sub
-  name="Circle"
+  name="Trigonometry"
   route="/math1/m3"
   />
 
 
 
-<a href="" target='_blank'><p className="flex bg-gray-900 text-white w-[340px] md:w-[360px] items-center justify-center py-1 m-auto mt-5 gap-3 rounded-lg font-mono font-extrabold text-lg">Materials&nbsp; <GrDocumentPdf color="yellow"  size={25}/>
+<a href="" target='_blank'><p className="flex bg-gray-900 text-white w-5/6 md:w-[360px] items-center justify-center py-1 m-auto mt-5 gap-3 rounded-lg font-mono font-extrabold text-lg">Materials&nbsp; <GrDocumentPdf color="yellow"  size={25}/>
 </p></a>
   
 </section>

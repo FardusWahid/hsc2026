@@ -45,19 +45,19 @@ export default function Navbar({ fixed }) {
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:font-extrabold hover:text-blue-900 hover:text-shadow"
-                  href="https://applecourses.netlify.app/freecourses"
+              <a
+                  className="px-3 py-2 flex items-center text-xs uppercase poet leading-snug text-black hover:font-extrabold hover:text-blue-900 hover:text-shadow"
+                  href="https://www.facebook.com/groups/1451996508764221"
                 >
-                  <span className="ml-2 tracking-wider">Free</span>
+                  <span className="ml-2 tracking-wider">Support Group</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:font-extrabold hover:text-blue-900 hover:text-shadow"
-                  href="https://www.facebook.com/groups/1451996508764221"
+              <a
+                  className="px-3 py-2 flex items-center text-xs uppercase poet leading-snug text-black hover:font-extrabold hover:text-blue-900 hover:text-shadow"
+                  href="/api/auth/signout"
                 >
-                <span className="ml-2 tracking-wider">Support Group</span>
+                <span className="ml-2 tracking-wider">Sign-out</span>
                 </a>
               </li>
             </ul>

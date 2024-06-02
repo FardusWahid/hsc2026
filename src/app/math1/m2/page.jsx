@@ -10,8 +10,8 @@ import { redirect } from 'next/navigation'
 
         <div>
             <Neo
-            chapter="Straight Line"
-            playid="PLvgzT9BBU5Xxt1r_-KByEu4xfu_Rt3o_c"
+            chapter="Circles"
+            playid=""
             />
         </div>
     )

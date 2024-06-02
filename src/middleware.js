@@ -8,7 +8,7 @@ export default withAuth(
 
     if (
       req.nextUrl.pathname.startsWith("/chemistry1") &&
-      req.nextauth.token.role != "pro"
+      req.nextauth.token.role != "admin"
     ) {
       return NextResponse.rewrite(new URL("/denied", req.url));
     }
@@ -18,7 +18,7 @@ if(req.nextUrl.pathname.startsWith("/physics1") && req.nextauth.token.role != "p
     return NextResponse.rewrite(new URL('/denied', req.url));
 }
 
-if(req.nextUrl.pathname.startsWith("/math1") && req.nextauth.token.role != "admin"){
+if(req.nextUrl.pathname.startsWith("/math1") && req.nextauth.token.role != "pro"){
     return NextResponse.rewrite(new URL('/denied', req.url));
 }
 
@@ -41,7 +41,7 @@ if(req.nextUrl.pathname.startsWith("/math1") && req.nextauth.token.role != "admi
 );
 
 export const config = { matcher: ["/chemistry1/:path*", "/physics1/:path*",
-"/math1/:path*", "/ict/:path*", "/denied"
+"/math1/:path*", "/ict/:path*", "/denied", "/"
 
 ] };
 

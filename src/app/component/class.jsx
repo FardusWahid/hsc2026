@@ -55,7 +55,7 @@ function Neo(props) {
           {currentVideos.map(video => (
 
             <div key={video.id} >
-                <p className='m-auto text-center text-[12px]  font-semibold font-mono w-[370px] lg:w-[480px]'>{video.snippet.title}</p>
+                <p className='m-auto text-center text-[12px]  font-semibold font-mono w-[350px] lg:w-[480px]'>{video.snippet.title}</p>
 
 
 

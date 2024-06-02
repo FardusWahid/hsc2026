@@ -1,7 +1,4 @@
 import Neo from "@/app/component/class";
-import { getServerSession } from 'next-auth';
-import { option } from "@/app/api/auth/[...nextauth]/option";
-import { redirect } from 'next/navigation'
 
     const Math =  (props) => {
         
@@ -9,8 +6,8 @@ import { redirect } from 'next/navigation'
 
         <div>
             <Neo
-            chapter="Matrix & Determinant"
-            playid="PLvgzT9BBU5Xxt1r_-KByEu4xfu_Rt3o_c"
+            chapter="Straight Line"
+            playid="PLxRwi0lKBoQNrAD6ODTJSt1OD00FjlbYc"
             />
         </div>
     )
