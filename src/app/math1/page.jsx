@@ -35,7 +35,28 @@ const Folder = async () => {
 <a href="" target='_blank'><p className="flex bg-gray-900 text-white w-5/6 md:w-[360px] items-center justify-center py-1 m-auto mt-5 gap-3 rounded-lg font-mono font-extrabold text-lg">Materials&nbsp; <GrDocumentPdf color="yellow"  size={25}/>
 </p></a>
   
+</section><h1 className='poet text-center text-2xl tracking-wide mt-6 '>Archive</h1>
+
+
+<section className='mt-2'>
+
+  <Sub
+  name="Straight Line"
+  route="/math1/s-ar"
+  />
+
+
+
+
+<a href="" target='_blank'><p className="flex bg-gray-900 text-white w-5/6 md:w-[360px] items-center justify-center py-1 m-auto mt-5 gap-3 rounded-lg font-mono font-extrabold text-lg">Materials&nbsp; <GrDocumentPdf color="yellow"  size={25}/>
+</p></a>
+  
 </section>
+
+
+
+
+
 
 
 
