@@ -38,26 +38,26 @@ export default function Navbar({ fixed }) {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:font-extrabold hover:text-purple-900 hover:text-shadow"
+                  className="px-2 py-2 flex rounded-lg items-center text-xs font-sans uppercase  leading-snug text-black font-extrabold hover:bg-[#f8f1df] transition-all ease-in duration-150 hover:mega hover:text-black"
                   href="https://applecourses.netlify.app"
                 >
-                <span className=" ml-2 tracking-wider">Apple Shop</span>
+                <span className=" ml-2 tracking-wider hover:tracking-widest transition-all ease-in duration-100 ">Apple Shop</span>
                 </a>
               </li>
               <li className="nav-item">
               <a
-                  className="px-3 py-2 flex items-center text-xs uppercase poet leading-snug text-black hover:font-extrabold hover:text-blue-900 hover:text-shadow"
+                  className="px-3 py-2 flex items-center text-xs uppercase font-sans leading-snug text-black font-extrabold hover:bg-[#f8f1df] rounded-lg transition-all ease-in duration-100 hover:mega hover:text-black"
                   href="https://www.facebook.com/groups/1451996508764221"
                 >
-                  <span className="ml-2 tracking-wider">Support Group</span>
+                  <span className="ml-2 tracking-wider hover:tracking-widest transition-all ease-in duration-100">Support Group</span>
                 </a>
               </li>
               <li className="nav-item">
               <a
-                  className="px-3 py-2 flex items-center text-xs uppercase poet leading-snug text-black hover:font-extrabold hover:text-blue-900 hover:text-shadow"
+                  className="px-3 py-2 flex items-center text-xs uppercase font-sans leading-snug text-black font-extrabold hover:bg-[#f8f1df] rounded-lg transition-all ease-in duration-100 hover:mega hover:text-black"
                   href="/api/auth/signout"
                 >
-                <span className="ml-2 tracking-wider">Sign-out</span>
+                <span className="ml-2 tracking-wider hover:tracking-widest transition-all ease-in duration-100">Sign-out</span>
                 </a>
               </li>
             </ul>

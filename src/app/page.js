@@ -25,31 +25,26 @@ const page = async (prop) => {
 
       <section>
     <Sub
-    name="Acs Physics cycle 1"
+    name="Physics cycle 1"
     route="/physics1"
     />
 
 <Sub
-    name="Acs Chemistry cycle 1"
+    name="Chemistry cycle 1"
     route="/chemistry1"
     />
 
 
 <Sub
-    name="ACS Math cycle 1"
+    name="Mathematics cycle 1"
     route="/math1"
     />
 
 
-    <Sub
-    name="ACS Math cycle 2"
-    route="/denied"
-    />
-
 
 
 <Sub
-    name="Acs ICT DeCoder 26"
+    name="ACS ICT DeCoder-2026"
     route="denied"
     />
     </section>

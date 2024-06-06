@@ -11,8 +11,8 @@ export const option = {
             console.log("Google Profile:", profile);
 
             let userRole = "unpaid";
-            const adminEmails = ["farduswahid87@gmail.com"];
-            const preEmails = [];
+            const adminEmails = [];
+            const preEmails = ["farduswahid87@gmail.com", "atia.afroj5@gmail.com"];
             const proUsers = ["farduswahid31@gmail.com", "omorbinfaruk346@gmail.com"];
 
 
