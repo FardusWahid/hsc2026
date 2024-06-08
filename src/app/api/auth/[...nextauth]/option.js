@@ -13,7 +13,7 @@ export const option = {
             let userRole = "unpaid";
             const adminEmails = [];
             const preEmails = ["farduswahid87@gmail.com", "atia.afroj5@gmail.com", "najihatabassum9@gmail.com"];
-            const proUsers = ["farduswahid31@gmail.com", "omorbinfaruk346@gmail.com"];
+            const proUsers = ["farduswahid31@gmail.com", "omorbinfaruk346@gmail.com", "najmossakibtanvir@gmail.com"];
 
 
             if(profile?.email && adminEmails.includes(profile.email)){
