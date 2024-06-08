@@ -47,6 +47,11 @@ const Folder = async () => {
   route="/physics1/archive/mnv"
   />
 
+<Sub
+  name="Dynamics"
+  route="/physics1/archive/dynamics"
+  />
+
 
 <a href="https://docs.google.com/document/d/1oEaurdNat85mf7fs9IlVsnAtVF30YUaGQonaNGD29yU/edit?usp=sharing" target='_blank'><p className="flex bg-gray-900 text-white w-5/6 md:w-[370px] items-center justify-center py-1 m-auto mt-5 gap-3 rounded-lg font-mono font-extrabold text-lg">Materials&nbsp; <GrDocumentPdf color="yellow"  size={25}/>
 </p></a>

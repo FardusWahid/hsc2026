@@ -13,16 +13,19 @@ export const option = {
             let userRole = "unpaid";
             const adminEmails = [];
             const preEmails = ["farduswahid87@gmail.com", "atia.afroj5@gmail.com", "najihatabassum9@gmail.com"];
-            const proUsers = ["farduswahid31@gmail.com", "omorbinfaruk346@gmail.com", "najmossakibtanvir@gmail.com"];
-
+            const proUsers = ["omorbinfaruk346@gmail.com", "najmossakibtanvir@gmail.com"];
+            const pmEmails = ["farduswahid31@gmail.com", "najmossakibtanvir@gmail.com"];
 
             if(profile?.email && adminEmails.includes(profile.email)){
                 userRole= "admin";
             }else if(profile?.email && proUsers.includes(profile.email)){
                 userRole = "pro";
             }else if(profile?.email && preEmails.includes(profile?.email)){
-                userRole = "premium"
+                userRole = "premium";
+            }else if(profile?.email && pmEmails.includes(profile.email)){
+                userRole = "prime";
             }
+
 
              return{
                 ...profile,

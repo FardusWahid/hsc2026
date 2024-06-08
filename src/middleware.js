@@ -14,11 +14,21 @@ export default withAuth(
     }
 
 
-if(req.nextUrl.pathname.startsWith("/physics1") && req.nextauth.token.role != "premium"){
+if(req.nextUrl.pathname.startsWith("/physics1") && 
+   
+   req.nextauth.token.role != "premium" &&
+   req.nextauth.token.role != "prime"
+  
+  ){
     return NextResponse.rewrite(new URL('/denied', req.url));
 }
 
-if(req.nextUrl.pathname.startsWith("/math1") && req.nextauth.token.role != "pro"){
+
+if(req.nextUrl.pathname.startsWith("/math1") &&
+  req.nextauth.token.role != "pro" &&
+  req.nextauth.token.role !="prime"
+
+){
     return NextResponse.rewrite(new URL('/denied', req.url));
 }
 
