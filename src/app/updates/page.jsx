@@ -29,7 +29,7 @@ color='bg-pink-200'
 
 </div>
     
-    
+    <br />
     
 </div>
   )
