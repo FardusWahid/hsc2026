@@ -3,6 +3,9 @@ import { option } from '../api/auth/[...nextauth]/option'
 import { redirect } from 'next/navigation'
 import Sub from '../component/sub';
 import { GrDocumentPdf } from "react-icons/gr";
+import Link from 'next/link';
+import { MdTipsAndUpdates } from "react-icons/md";
+
 
 
 const Folder = async () => {
@@ -74,6 +77,7 @@ const Folder = async () => {
 
 
 <br />
+<Link className='flex justify-center hover:bg-[#faf0d3] p-2 rounded-xl hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest w-[250px] m-auto mb-2 gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
 
     </div>
   )
