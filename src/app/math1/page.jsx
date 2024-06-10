@@ -15,7 +15,7 @@ const Folder = async () => {
    
   return (
     <div>
-<h1 className='poet text-center text-3xl md:text-4xl  tracking-wide my-6 md:mb-14'>ACS Mathematics Cycle 1 </h1>
+<h1 className='poet text-center text-3xl w-11/12 m-auto md:text-4xl  tracking-wide my-6 md:mb-14'>ACS Mathematics Cycle 1 </h1>
 
 
 <section className='mt-2'>
