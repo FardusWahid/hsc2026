@@ -11,7 +11,12 @@ function page(props) {
 
 
 
-
+<Post
+date="10 june 2024"
+line="Next vector class মঙ্গলবার"
+link="https://i.ytimg.com/vi/evMyBo-GhKQ/sddefault.jpg"
+color='bg-cyan-200'
+/>
 
 
 <Post
