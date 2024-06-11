@@ -8,7 +8,7 @@ export default withAuth(
 
     if (
       req.nextUrl.pathname.startsWith("/chemistry1") &&
-      req.nextauth.token.role != "admin"
+      req.nextauth.token.role != "paid"
     ) {
       return NextResponse.rewrite(new URL("/denied", req.url));
     }
