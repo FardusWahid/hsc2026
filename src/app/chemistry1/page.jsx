@@ -16,7 +16,7 @@ const Folder = async () => {
   return (
     <div>
       
-<h1 className='font-sans text-center text-3xl md:text-4xl md:tracking-wider italic md:mb-10 mt-5 mb-7 font-extrabold  w-11/12 m-auto '>ACS Chemistry Cycle 1 </h1>
+<h1 className='font-sans text-center text-4xl md:text-5xl italic md:mb-10 mt-5 mb-10 font-extrabold  w-11/12 m-auto md:tracking-tight  '><span className='text-4xl md:text-5xl md:tracking-tight tracking-wider'>ACS Chemistry</span> Cycle-1 </h1>
 <div className=''>
 
 <section className='mt-2'>
@@ -43,10 +43,10 @@ const Folder = async () => {
 
 
 
-<h1 className='font-serif text-center text-lg md:text-xl italic font-extrabold mt-8 w-11/12 m-auto '>2025 archive </h1>
+<h1 className='font-serif text-center text-lg md:text-xl italic font-extrabold mt-10 w-11/12 m-auto '>2025 archive </h1>
 <div>
 
-<section className='mt-2'>
+<section>
 
   <Sub
   name="Qualitative Chemistry"
