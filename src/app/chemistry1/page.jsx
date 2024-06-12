@@ -63,7 +63,7 @@ const Folder = async () => {
 
 
 <br />
-<Link className='flex justify-center bg-[#eae0c3] md:bg-[#e2d5b0] mt-0 p-2 rounded-xl hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest w-11/12 m-auto mb-2 md:w-[380px] gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
+<Link className='flex justify-center bg-[#eae0c3] md:bg-[#e2d5b0] mt-0 p-2 rounded-xl hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest w-5/6 m-auto mb-2 md:w-[380px] gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
 
 
 
