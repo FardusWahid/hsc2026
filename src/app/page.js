@@ -45,7 +45,7 @@ const page = async (prop) => {
 
 <Sub
     name="ACS ICT DeCoder-2026"
-    route="denied"
+    route="/ict"
     />
     </section>
     </div>  

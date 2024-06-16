@@ -6,7 +6,7 @@ const Sign = async () =>{
     const session = await getServerSession(option);
 
     return(
-        <div className="">
+        <div>
 
       {session ? <Link href='/api/auth/signout?callbackUrl=/'>Logout</Link> : <Link href="/api/auth/signin?callbackUrl=/">Login</Link>}
 
