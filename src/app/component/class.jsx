@@ -44,7 +44,7 @@ function Neo(props) {
   const indexOfFirstVideo = indexOfLastVideo - videosPerPage;
   const currentVideos = videos.slice(indexOfFirstVideo, indexOfLastVideo);
   return (
-    <div>
+    <div className='select-none'>
 
       <h1 className='text-center font-bold mt-2 text-2xl'>{props.chapter} </h1><br />
 
@@ -55,7 +55,7 @@ function Neo(props) {
           {currentVideos.map(video => (
 
             <div key={video.id} >
-  <p className='m-auto text-center text-[12px] tracking-tighter font-semibold font-mono w-[350px] lg:w-[480px]'>{video.snippet.title}</p>
+  <p className='m-auto text-center text-[13px] tracking-tighter font-semibold font-mono w-[350px] lg:w-[480px]'>{video.snippet.title}</p>
 
 
 
