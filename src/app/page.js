@@ -11,7 +11,7 @@ const page = async (prop) => {
 
   
   return (
-    <div>
+    <div className='select-none'>
       <h1 className='text-center mt-4 font-[900] italic tracking-wide font-sans text-black text-3xl md:text-[40px] md:mt-2 md:tracking-tighter '><span className='max-md:hidden'>Apple</span> Academic Cycle 2026 </h1>
 
 <section className='grid items-center m-auto justify-center w-3/4 mt-3 '>

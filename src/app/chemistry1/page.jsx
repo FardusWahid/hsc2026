@@ -14,12 +14,12 @@ const Folder = async () => {
   
    
   return (
-    <div>
+    <div className='select-none'>
       
-<h1 className='font-sans text-center text-4xl md:text-5xl italic md:mb-10 mt-5 mb-10 font-extrabold  w-11/12 m-auto md:tracking-tight  '><span className='text-4xl md:text-5xl md:tracking-tight tracking-wider'>ACS Chemistry</span> Cycle-1 </h1>
-<div className=''>
+<h1 className='font-sans text-center text-4xl md:text-5xl italic md:mb-10 mt-4 mb-2 font-extrabold  w-5/6 m-auto md:tracking-tight  '><span className='text-4xl md:text-5xl md:tracking-tight tracking-wide'>ACS Chemistry</span> Cycle-1 </h1>
+<div>
 
-<section className='mt-2'>
+<section>
 
   <Sub
   name="Qualitative Chemistry"
@@ -64,7 +64,7 @@ const Folder = async () => {
 
 <br />
 <Link className='flex justify-center bg-[#eae0c3] md:bg-[#e2d5b0] mt-0 p-2 rounded-xl hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest w-5/6 m-auto mb-2 md:w-[380px] gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
-
+<br />
 
 
 
