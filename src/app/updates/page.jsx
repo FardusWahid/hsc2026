@@ -10,11 +10,12 @@ function page(props) {
 
 <Post
 date="21 june 2024"
-line="New Facebook Page https://www.facebook.com/apple.courses.netlify.app.3.0"
+road="https://www.facebook.com/apple.courses.netlify.app.3.0/"
+name="Facebook page"
+line="Follow Our New"
 link="https://applecourses.netlify.app/_next/image?url=%2Fbetterfb.webp&w=1920&q=75"
 color='bg-amber-200'
 />
-
 
 <Post
 date="10 june 2024"
@@ -22,6 +23,7 @@ line="Next vector class মঙ্গলবার"
 link="https://i.ytimg.com/vi/evMyBo-GhKQ/sddefault.jpg"
 color='bg-cyan-200'
 />
+
 
 
 <Post
