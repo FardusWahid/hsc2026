@@ -8,7 +8,12 @@ function page(props) {
 
 <div className='flex flex-wrap justify-between  gap-5 md:mx-5 lg:mx-8 lg:justify-between'>
 
-
+<Post
+date="21 june 2024"
+line="New Facebook Page https://www.facebook.com/apple.courses.netlify.app.3.0"
+link="https://applecourses.netlify.app/_next/image?url=%2Fbetterfb.webp&w=1920&q=75"
+color='bg-amber-200'
+/>
 
 
 <Post
