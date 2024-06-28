@@ -51,7 +51,7 @@ if(req.nextUrl.pathname.startsWith("/math1") &&
 );
 
 export const config = { matcher: ["/chemistry1/:path*", "/physics1/:path*",
-"/math1/:path*", "/ict/:path*", "/denied", "/"
+"/math1/:path*", "/ict/:path*", "/denied", "/:path*"
 
 ] };
 
