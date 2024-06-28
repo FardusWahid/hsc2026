@@ -2,6 +2,8 @@ import { getServerSession } from 'next-auth'
 import { option } from './api/auth/[...nextauth]/option'
 import { redirect } from 'next/navigation'
 import Sub from './component/sub'
+import Link from 'next/link';
+import { MdTipsAndUpdates } from "react-icons/md";
 const page = async (prop) => {
   const session =  await getServerSession(option)
   
@@ -53,6 +55,9 @@ const page = async (prop) => {
     route="/denied"
     />
     </section>
+<br/>
+    <Link className='flex justify-center bg-[#fef2d0] md:bg-[#fef2d0] ring-[.3px] ring-blue-950 hover:ring-1 hover:ring-blue-950 mt-0 p-2 rounded-xl hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest w-11/12 m-auto mb-2 md:w-[380px] gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
+
     </div>  
     
 
