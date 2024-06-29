@@ -16,7 +16,7 @@ const Folder = async () => {
   return (
     <div className='select-none'>
       
-<h1 className='font-sans text-center text-[35px] leading-[44px]  md:text-[41px] italic md:not-italic md:mb-10 mt-2 mb-2 font-extrabold  w-5/6 m-auto md:tracking-tight  '><span className='text-[35px] md:text-[41px] md:tracking-tight tracking-wider'>ACS Chemistry</span><span className='tracking-normal'> Cycle- 01</span> </h1>
+<h1 className='font-sans text-center text-[35px] leading-[44px]  md:text-[41px] italic md:not-italic md:mb-10 mt-2 mb-2 font-extrabold  w-5/6 m-auto md:tracking-tight  '><span className='text-[36px] md:text-[41px] md:tracking-tight tracking-tight'>Apple Chemistry</span><span className='tracking-tight'> Cycle- 01</span> </h1>
 <div>
 
 <section>
