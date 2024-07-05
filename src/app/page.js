@@ -14,7 +14,7 @@ const page = async (prop) => {
   
   return (
     <div className='select-none'>
-      <h1 className='text-center mt-4 font-[900] italic tracking-wide font-sans text-black text-3xl md:text-[40px] md:mt-2 md:tracking-tighter '><span className='max-md:hidden'>Apple</span> Academic Cycle 2026 </h1>
+      <h1 className='text-center mt-4 font-[900] tracking-wide font-sans text-black text-3xl md:text-[40px] md:mt-2 md:tracking-tighter '><span className='max-md:hidden'>Apple</span> Academic Cycle 2026 </h1>
 
 <section className='grid items-center m-auto justify-center w-3/4 mt-3 '>
       
@@ -56,7 +56,7 @@ const page = async (prop) => {
     />
     </section>
 <br/>
-    <Link className='flex justify-center bg-[#fef2d0] md:bg-[#fef2d0] ring-[.7px] ring-black hover:ring-1 hover:ring-blue-950 mt-0 p-2 rounded-lg hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest w-11/12 m-auto mb-2 md:w-[380px] gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
+    <Link className='flex justify-center bg-cyan-100 md:bg-cyan-100 ring-[.2px] ring-black hover:ring-1 hover:ring-blue-950 mt-0 p-2 rounded-md hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest w-5/6 m-auto mb-2 md:w-[380px] gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
 
     </div>  
     

@@ -7,7 +7,7 @@ import Neo from "@/app/component/class";
 
         <div>
             <Neo
-            chapter="Number System & Digital Device"
+            chapter="Number system & digital device"
             playid="PLjo9h8F7l8RDVbCQQufHMJd9L-Jm01KLH"
             />
         </div>

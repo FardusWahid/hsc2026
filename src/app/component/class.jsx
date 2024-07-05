@@ -50,7 +50,7 @@ function Neo(props) {
       {loading && <p className=" flex justify-center items-center font-extrabold tracking-tight text-lg text-black">Loading...</p>}
       {error && <p>Error: {error}</p>}
       {!loading && !error && (
-        <div className="w-full h-full flex flex-wrap justify-center xl:mx-3 xl:justify-start gap-5  ">
+        <div className="w-full flex flex-wrap justify-center 2xl:w-[1490px] 2xl:m-auto 2xl:justify-start  gap-5  ">
           {currentVideos.map(video => (
 
             <div key={video.id} >

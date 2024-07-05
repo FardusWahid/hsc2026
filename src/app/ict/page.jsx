@@ -7,8 +7,8 @@ import { GrDocumentPdf } from "react-icons/gr";
 const ChapterLink = ({ href, chapter}) => {
   return (
     <div>
-    <section className="w-[265px] font-sans text-lg hover:text-xl mt-2 mb-5 m-auto text-black bg-red-100 flex md:w-1/4 px-3 py-2 md:py-[9.5px] justify-center 
-    ring-[.7px]  ring-black hover:ring-[1.2px] hover:bg-pink-200 hover:text-purple-950 rounded-lg transition-all ease-in duration-100 font-semibold hover:font-bold">
+    <section className="w-[265px] font-sans text-lg hover:text-xl mt-2 mb-5 m-auto text-black bg-cyan-100 flex md:w-1/4 px-3 py-2 md:py-[9.5px] justify-center 
+    ring-[.7px]  ring-black hover:ring-[1.2px] hover:bg-cyan-200 hover:text-purple-950 rounded-lg transition-all ease-in duration-100 font-semibold hover:font-bold">
       <Link className="flex gap-6" href={href}>
         <h1>{chapter}</h1> <GrNext size={27} />
       </Link>
