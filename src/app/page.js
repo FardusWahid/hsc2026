@@ -51,12 +51,12 @@ const page = async (prop) => {
 
 
 <Sub
-    name="ACS ICT DeCoder-2026"
-    route="/denied"
+    name="FREE ICT DeCoder-2026"
+    route="/ict"
     />
     </section>
 <br/>
-    <Link className='flex justify-center bg-[#fef2d0] md:bg-[#fef2d0] ring-[.3px] ring-blue-950 hover:ring-1 hover:ring-blue-950 mt-0 p-2 rounded-xl hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest w-11/12 m-auto mb-2 md:w-[380px] gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
+    <Link className='flex justify-center bg-[#fef2d0] md:bg-[#fef2d0] ring-[.7px] ring-black hover:ring-1 hover:ring-blue-950 mt-0 p-2 rounded-lg hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest w-11/12 m-auto mb-2 md:w-[380px] gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
 
     </div>  
     

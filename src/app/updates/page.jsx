@@ -7,6 +7,22 @@ function page(props) {
 <h1 className='text-center mt-1 font-sans font-extrabold text-2xl '>Latest updates</h1>
 
 <div className='flex flex-wrap justify-between  gap-5 md:mx-5 lg:mx-8 lg:justify-between'>
+
+<Post
+date="5 july 2024"
+road="https://www.facebook.com/share/PotRZm2sKSjALm6P/"
+name="Course Link"
+line="ICT Decoder 2026 FREE for 7days. ফ্রি রাখতে চাইলে & lecture Sheets Free তে পেতে Share করো তোমার 26 ব্যাচ এর Friends der"
+color='bg-[#ccff00] text-black '
+/>
+
+<Post
+date="5 july 2024"
+road="https://www.facebook.com/share/PotRZm2sKSjALm6P/"
+line="Total Classes: Physics[8] Chemistry[15] Math[19]"
+color='bg-cyan-100 text-purple-950'
+/>
+
 <Post
 date="28 june 2024"
 road="https://www.facebook.com/share/PotRZm2sKSjALm6P/"
