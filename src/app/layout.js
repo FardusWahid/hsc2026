@@ -1,5 +1,4 @@
 import "./globals.css";
-import Nav from './component/sign'
 import Navbar from "./component/navbar";
 
 
