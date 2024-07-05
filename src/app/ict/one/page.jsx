@@ -7,7 +7,7 @@ import Neo from "@/app/component/class";
 
         <div>
             <Neo
-            chapter="ICT World & Bangladesh Perspective"
+            chapter="ICT world and Bangladesh Perspective"
             playid=""
             />
         </div>
