@@ -9,6 +9,14 @@ function page(props) {
 <div className='flex flex-wrap justify-between  gap-5 md:mx-5 lg:mx-8 lg:justify-between'>
 
 <Post
+date="10 july 2024"
+road="https://apple26.netlify.app"
+name="Link"
+line="vercel server কখনো busy থাকলে এটা use করবে https://apple26.netlify.app"
+color='bg-[#F6EDD1] text-blue-950'
+/>
+
+<Post
 date="5 july 2024"
 road="https://www.facebook.com/share/PotRZm2sKSjALm6P/"
 name="Course Link"
