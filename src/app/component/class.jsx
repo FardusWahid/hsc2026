@@ -64,7 +64,7 @@ function Neo(props) {
                   url={`https://www.youtube.com/watch?v=${video.snippet.resourceId.videoId}`}
                   controls={true}
                   width={isLargeScreen ? 475 : 344}
-                  height={isLargeScreen ? 290 : 230}
+                  height={isLargeScreen ? 290 : 220}
                   light={`https://img.youtube.com/vi/${video.snippet.resourceId.videoId}/hqdefault.jpg`}
                  playing={true}
                  

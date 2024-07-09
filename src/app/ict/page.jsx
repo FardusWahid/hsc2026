@@ -31,8 +31,8 @@ const MainPage = () => {
 
       
       <Link className='flex justify-center bg-purple-700 ring-1 text-lg ring-black hover:ring-2 hover:ring-black mt-7 p-[7px]  rounded-lg hover:text-xl transition-all ease-in-out duration-200  font-sans font-bold text-white  w-[275px] m-auto md:w-[290px] lg:w-[370px] xl:w-[400px] gap-2' href="https://tinyurl.com/56748489">Materials&nbsp; <GrDocumentPdf color="white"  size={25} /></Link>
-<div className='flex justify-center mt-5'>
-  <p className='text-[16px] font-semibold tracking-tight md:tracking-normal'>Copy Shareable link: <span className='select-all font-bold selection:bg-yellow-400'>https://tinyurl.com/apple2026</span> </p>
+<div className='flex justify-center my-3 md:mt-5'>
+  <p className='text-[16px] font-semibold tracking-tight md:tracking-normal'>Shareable link: <span className='select-all font-bold selection:bg-yellow-400'>https://tinyurl.com/apple2026</span> </p>
 </div>
     </div>
   );
