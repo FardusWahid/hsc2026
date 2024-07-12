@@ -16,10 +16,12 @@ const Folder = async () => {
   return (
     <div className='select-none'>
       
-<h1 className='font-sans text-center text-[35px] leading-[44px]  md:text-[41px] italic md:not-italic md:mb-10 mt-2 mb-2 font-extrabold  w-5/6 m-auto md:tracking-tight  '><span className='text-[36px] md:text-[41px] md:tracking-tight tracking-tight'>Apple Chemistry</span><span className='tracking-tight'> Cycle- 01</span> </h1>
+<h1 className=' w-11/12 m-auto font-sans text-center tracking-tight md:tracking-normal text-[35px] leading-[45px] md:text-[39px] font-extrabold mt-1 md:mt-1'><span className='text-[35px] md:text-[41px] md:tracking-tight tracking-tight'>Apple Chemistry</span><span className='tracking-tight'> Cycle- 01</span> </h1>
+<h1 className='text-center font-extrabold text-xl font-mono mt-4 max-md:hidden italic'>2024 Classes</h1>
+
 <div>
 
-<section>
+<section className='mt-3 md:mt-5'>
 
   <Sub
   name="Qualitative Chemistry"
@@ -33,8 +35,8 @@ const Folder = async () => {
 
 
 
-<a href="https://docs.google.com/document/d/1DNM9yVqphv2TOCIZoMkXV024YVMVUCgPGdGqJ9je0uk/edit?usp=sharing" target='_blank'><p className="flex bg-gray-900 text-white w-5/6 md:w-[360px] items-center justify-center py-1 m-auto my-5 gap-3 rounded-lg font-sans font-semibold text-lg">Materials&nbsp; <GrDocumentPdf color="white"  size={25}/>
-</p></a>
+<Link href="https://docs.google.com/document/d/1DNM9yVqphv2TOCIZoMkXV024YVMVUCgPGdGqJ9je0uk/edit?usp=sharing" className="wd md:w-[375px] m-auto flex bg-black text-white items-center justify-center p-[9px] my-5 gap-2 rounded-lg hover:tracking-wide transition-all ease-in duration-100  font-sans font-bold text-lg">Materials&nbsp; <GrDocumentPdf color="white"  size={27}/>
+</Link>
   
 </section>
 
@@ -43,7 +45,7 @@ const Folder = async () => {
 
 
 
-<h1 className='font-mono uppercase text-center text-lg md:text-xl italic font-extrabold mt-7 w-11/12 m-auto '>2025 archive </h1>
+<h1 className='font-mono uppercase text-center text-lg md:text-xl italic font-extrabold mt-7 w-11/12 m-auto '>2027 archive </h1>
 <div>
 
 <section>
@@ -54,16 +56,14 @@ const Folder = async () => {
   />
 
 
-<a href="https://docs.google.com/document/d/1DNM9yVqphv2TOCIZoMkXV024YVMVUCgPGdGqJ9je0uk/edit?usp=sharing" target='_blank'><p className="flex bg-gray-900 text-white w-5/6 md:w-[360px] items-center justify-center py-1 m-auto mt-5 gap-3 rounded-lg font-sans font-semibold text-lg">Materials&nbsp; <GrDocumentPdf color="white"  size={25}/>
-</p></a>
+<Link href="https://docs.google.com/document/d/1DNM9yVqphv2TOCIZoMkXV024YVMVUCgPGdGqJ9je0uk/edit?usp=sharing" className="wd md:w-[375px] m-auto flex bg-black text-white items-center justify-center p-[9px] my-5 gap-2 rounded-lg hover:tracking-wide transition-all ease-in duration-100  font-sans font-bold text-lg">Materials&nbsp; <GrDocumentPdf color="white"  size={27}/>
+</Link>
   
 </section>
 
 </div>
 
-
-<br />
-<Link className='flex justify-center bg-[#fef2d0] md:bg-[#fef2d0] ring-[.3px] ring-blue-950 hover:ring-1 hover:ring-blue-950 mt-0 p-2 rounded-xl hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest w-5/6 m-auto mb-2 md:w-[380px] gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
+<Link className='flex justify-center bg-purple-950 hover:ring-1 hover:ring-black w-11/12 md:w-[380px] p-2 rounded-md hover:text-[17px] transition-all ease-in-out duration-200   font-sans font-thin text-white italic m-auto mb-2 gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='pink'/></Link><br />
 
     </div>
   )

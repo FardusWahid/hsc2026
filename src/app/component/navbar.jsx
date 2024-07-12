@@ -6,7 +6,7 @@ export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className=" w-full flex flex-wrap items-center justify-between px-3 py-1 fixed nav mb-3">
+      <nav className=" w-full select-none flex flex-wrap items-center justify-between px-3 py-1 fixed nav mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
@@ -38,7 +38,7 @@ export default function Navbar({ fixed }) {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <a
-                  className="px-2 py-2 flex rounded-lg items-center text-xs font-sans uppercase  leading-snug text-black font-extrabold hover:bg-[#f8f1df] transition-all ease-in duration-150 hover:text-black"
+                  className="px-2 py-2 flex rounded-sm items-center text-xs font-sans uppercase  leading-snug text-black font-extrabold hover:bg-pink-200 transition-all ease-in duration-150 hover:text-black"
                   href="https://applecourses.netlify.app"
                 >
                 <span className=" ml-2 tracking-wider hover:tracking-widest transition-all ease-in duration-100 ">Apple Shop</span>
@@ -46,7 +46,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
               <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-sans leading-snug text-black font-extrabold hover:bg-[#f8f1df] rounded-lg transition-all ease-in duration-100 hover:text-black"
+                  className="px-3 py-2 flex items-center text-xs uppercase font-sans leading-snug text-black font-extrabold hover:bg-pink-200 rounded-sm transition-all ease-in duration-100 hover:text-black"
                   href="https://www.facebook.com/groups/1451996508764221"
                 >
                   <span className="ml-2 tracking-wider hover:tracking-widest transition-all ease-in duration-100">Support Group</span>
@@ -54,7 +54,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
               <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-sans leading-snug text-black font-extrabold hover:bg-[#f8f1df] rounded-lg transition-all ease-in duration-100 hover:text-black"
+                  className="px-3 py-2 flex items-center text-xs uppercase font-sans leading-snug text-black font-extrabold hover:bg-pink-200 rounded-sm transition-all ease-in duration-100 hover:text-black"
                   href="/api/auth/signout"
                 >
                 <span className="ml-2 tracking-wider hover:tracking-widest transition-all ease-in duration-100">Sign-out</span>

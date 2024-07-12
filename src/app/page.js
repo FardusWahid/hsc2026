@@ -14,13 +14,14 @@ const page = async (prop) => {
   
   return (
     <div className='select-none'>
-      <h1 className='text-center mt-3 font-extrabold tracking-tighter font-sans text-black text-[33px] md:text-[40px] md:mt-2 md:tracking-tighter '><span className='max-md:hidden'>Apple</span> Academic Cycle 2026 </h1>
-
-<section className='grid items-center m-auto justify-center w-3/4 mt-3 '>
+      <section className='flex justify-end lg:justify-end  l z-20'>
       
-      <h1 className='text-center font-sans italic font-bold text-lg'>Welcome back <span className='font-sans italic font-extrabold tracking-tight normal-case'>{session?.user?.name}</span> </h1>
-      <p className='text-lg text-start mt-1 font-sans font-bold tracking-wide'>account status: <span className='font-extrabold font-sans capitalize   italic'>{session?.user?.role}</span><br/></p>
+      <h1 className='text-[15px] max-w-[170px] overflow-hidden italic  bg-black text-start text-white px-2 rounded-md font-mono font-extrabold tracking-tighter mx-3 h-[24px] z-10'> <span className=''>{session?.user?.name}</span></h1>
+      <p className='text-[15px] max-w-[170px] overflow-hidden italic  bg-red-900 text-start text-white px-2 rounded-md font-mono font-extrabold tracking-tighter mx-3 h-[24px] z-10'>status: <span className=''>{session?.user?.role}</span></p>
       </section>
+      <h1 className='w-11/12 z-40 m-auto text-center font-extrabold tracking-tighter font-sans text-black text-[33px] md:text-[40px] md:tracking-tighter italic '> <span className='text-[38px] md:text-[40px]'> Apple Academic </span>Cycle 2026 </h1>
+
+
 
 
       <section>
@@ -55,10 +56,10 @@ const page = async (prop) => {
     route="/ict"
     />
     </section>
-<br/>
-    <Link className='flex justify-center bg-cyan-100 md:bg-cyan-100 ring-[.2px] ring-black hover:ring-1 hover:ring-blue-950 mt-0 p-2 rounded-md hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-semibold italic tracking-widest w-5/6 m-auto mb-2 md:w-[380px] gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='black'/></Link>
 
-    </div>  
+<Link href="" className="wd md:w-[375px] m-auto flex bg-black text-white items-center justify-center p-[9px] my-5 gap-2 rounded-lg hover:tracking-wide transition-all ease-in duration-100  font-sans font-bold text-lg">See what is new<MdTipsAndUpdates size={24} color='pink'/>
+</Link>
+</div>  
     
 
   
