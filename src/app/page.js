@@ -14,13 +14,14 @@ const page = async (prop) => {
   
   return (
     <div className='select-none'>
-      <section className='flex justify-end lg:justify-end  l z-20'>
-      
-      <h1 className='text-[15px] max-w-[170px] overflow-hidden italic  bg-black text-start text-white px-2 rounded-md font-mono font-extrabold tracking-tighter mx-3 h-[24px] z-10'> <span className=''>{session?.user?.name}</span></h1>
-      <p className='text-[15px] max-w-[170px] overflow-hidden italic  bg-red-900 text-start text-white px-2 rounded-md font-mono font-extrabold tracking-tighter mx-3 h-[24px] z-10'>status: <span className=''>{session?.user?.role}</span></p>
-      </section>
-      <h1 className='w-11/12 z-40 m-auto text-center font-extrabold tracking-tighter font-sans text-black text-[33px] md:text-[40px] md:tracking-tighter italic '> <span className='text-[38px] md:text-[40px]'> Apple Academic </span>Cycle 2026 </h1>
+     
+      <h1 className='chapterHeading'>ACS Academic <span className='max-sm:hidden'>Cycles</span> 2026</h1>
 
+      <section className='flex  gap-2  justify-center  m-auto  text-[15px] md:w-1/2 lg:w-1/3 xl:w-[390px] md:justify-start my-4 font-mono italic font-extrabold'>
+      
+      <h1 className='bg-gray-800 px-3 w-fit rounded-md shadow-inner shadow-gray-700'> <span>{session?.user?.name}</span></h1>
+      <p className='bg-yellow-500 px-3 w-fit rounded-md shadow-inner text-black shadow-yellow-300'>status: <span>{session?.user?.role}</span></p>
+      </section>
 
 
 
@@ -57,7 +58,7 @@ const page = async (prop) => {
     />
     </section>
 
-<Link href="" className="wd md:w-[375px] m-auto flex bg-black text-white items-center justify-center p-[9px] my-5 gap-2 rounded-lg hover:tracking-wide transition-all ease-in duration-100  font-sans font-bold text-lg">See what is new<MdTipsAndUpdates size={24} color='pink'/>
+<Link href="/updates" className="mat m-auto hover:bg-purple-600 flex bg-purple-500 text-black items-center font-semibold justify-center p-[9px] my-5 gap-2 rounded-lg hover:tracking-wide transition-all ease-in duration-100  font-sans  tracking-widest italic text-lg">See what is new<MdTipsAndUpdates size={24} color='black'/>
 </Link>
 </div>  
     
