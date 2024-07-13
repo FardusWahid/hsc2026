@@ -10,28 +10,28 @@ body {
 @layer base {
 
   .chapter{
-    @apply w-9/12 md:w-1/2 lg:w-1/3 xl:w-[390px] m-auto  mt-5 py-[9px] lg:py-[11px] px-0 text-[16px] lg:text-[18px] font-sans italic
+    @apply wd  md:w-1/2 lg:w-1/3 xl:w-[390px] m-auto  mt-5 py-[9.6px] lg:py-[11px] px-0 text-[17px] lg:text-[18px] font-sans italic
     rounded-md text-cyan-200 hover:bg-cyan-100 bg-gradient-to-r from-gray-950 via-gray-900 to-gray-950
     font-bold hover:ring-yellow-800 hover:tracking-wider transition-all ease-in-out duration-150
- ring-1 ring-gray-800
+ ring-1 ring-gray-700
   }
 
   .mat{
-    @apply matwidth md:w-1/2 lg:w-1/3 xl:w-[410px] bg-gray-800 hover:bg-gray-900 hover:ring-red-900 hover:ring-1 transition-all ease-in-out duration-150 text-white font-extrabold tracking-wide hover:tracking-widest rounded-md m-auto py-[8px] md:py-[12px] mt-5 md:bg-pink-950
+    @apply matwidth md:w-1/2 lg:w-1/3 xl:w-[410px] md:text-lg italic bg-gray-800 hover:bg-gray-900 hover:ring-red-900 hover:ring-1 transition-all ease-in-out duration-150 text-cyan-100 font-extrabold tracking-wide hover:tracking-widest rounded-md m-auto py-[8px] md:py-[12px] mt-5 md:bg-pink-950
   }
 
   .chapterHeading{
-  @apply text-center my-3 md:mt-0 font-sans font-extrabold text-cyan-400 text-[33px] md:text-5xl
+  @apply text-center my-3 md:mt-0 font-sans font-extrabold text-cyan-400 text-[34px] md:text-5xl
   }
 
 
 .matwidth{
-  width: 79%;
+  width: 83%;
 }
 
 
 .wd{
-  width: 87%;
+  width: 79%;
 }
 
 }

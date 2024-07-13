@@ -7,7 +7,7 @@ import Neo from "@/app/component/class";
 
         <div>
             <Neo
-            chapter="Physical World.. & Vector"
+            chapter="Measurements & vector"
             playid="PLjo9h8F7l8RDmEXvD_DTQTGQ9_p23_0tp"
             />
         </div>

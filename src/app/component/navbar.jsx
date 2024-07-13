@@ -27,11 +27,11 @@ export default function Navbar({ fixed }) {
 
   return (
     <div className="select-none">
-      <nav className="w-full flex flex-wrap items-center justify-between px-3 py-1 bg-black fixed mb-3 z-10 shadow-md shadow-gray-800 md:shadow-lg md:shadow-gray-800">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <nav className="w-full flex flex-wrap items-center justify-between px-3 py-1 bg-black fixed mb-3 z-50 shadow-md shadow-gray-800 md:shadow-lg md:shadow-gray-800">
+        <div className="container px-3 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
-              className="text-3xl md:text-4xl  font-extrabold tracking-wide leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-cyan-200 font-sans text-shadow"
+              className="text-3xl md:text-4xl  font-extrabold tracking-wide leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-cyan-200 font-sans"
               href="/"
             >
               Apple<span className="tracking-normal text-[10px] font-semibold italic">Premium</span>
@@ -41,7 +41,7 @@ export default function Navbar({ fixed }) {
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <GiHamburgerMenu color="white" size={27} />
+              <GiHamburgerMenu color="cyan" size={27} />
             </button>
           </div>
           <div
@@ -56,9 +56,9 @@ export default function Navbar({ fixed }) {
               <li>
                 <Link
                   className="px-3 py-2 flex items-center  text-xs lg:text-sm lg:tracking-[0px]   uppercase leading-snug text-cyan-200 transition-all rounded-sm ease-in-out duration-300 font-extrabold ml-2 hover:tracking-widest hover:bg-pink-400 hover:text-black"
-                  href="/freecourses"
+                  href="https://aapathshala.com/exams"
                 >
-                  free courses
+                  Exams
                 </Link>
               </li>
               <li>

@@ -7,7 +7,7 @@ const Folder =  () => {
      
   return (
     <div>
-<h1 className='chapterHeading'><span className='max-sm:hidden'>ACS </span>Physics Cycle-01 </h1>
+<h1 className='chapterHeading text-[36px] md:text-5xl'><span className='max-sm:hidden'>ACS </span>Physics Cycle-01 </h1>
 <h1 className='text-center  text-pink-500 text-xl font-sans mt-4 max-md:hidden italic'>2026 Classes</h1>
 
 

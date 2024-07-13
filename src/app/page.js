@@ -15,12 +15,12 @@ const page = async (prop) => {
   return (
     <div className='select-none'>
      
-      <h1 className='chapterHeading'>ACS Academic <span className='max-sm:hidden'>Cycles</span> 2026</h1>
+      <h1 className='chapterHeading md:tracking-tighter'>ACS Academic <span className='max-[446px]:hidden'>Cycles</span> 2026</h1>
 
-      <section className='flex  gap-2  justify-center  m-auto  text-[15px] md:w-1/2 lg:w-1/3 xl:w-[390px] md:justify-start my-4 font-mono italic font-extrabold'>
+      <section className='flex  gap-1  justify-start wd  m-auto  text-[15px] md:w-1/2 lg:w-1/3 xl:w-[390px] md:justify-start my-4 font-sans italic font-semibold'>
       
-      <h1 className='bg-gray-800 px-3 w-fit rounded-md shadow-inner shadow-gray-700'> <span>{session?.user?.name}</span></h1>
-      <p className='bg-yellow-500 px-3 w-fit rounded-md shadow-inner text-black shadow-yellow-300'>status: <span>{session?.user?.role}</span></p>
+      <h1 className='bg-gray-800 px-3 py-[2.5px] w-fit rounded-md shadow-inner shadow-gray-700 hover:bg-gray-900 tracking-tight md:tracking-normal'> <span>{session?.user?.name}</span></h1>
+      <p className='bg-yellow-500 hover:bg-yellow-600 px-3 w-fit py-[2.5px] rounded-md shadow-inner text-black shadow-yellow-300'>status: <span>{session?.user?.role}</span></p>
       </section>
 
 
