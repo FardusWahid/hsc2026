@@ -12,7 +12,7 @@ export const option = {
 
             let userRole = "unpaid";
             const adminEmails = ["applebyte87@gmail.com","araf55090@gmail.com","tasikurr1@gmail.com","yourmomxsenpai@gmail.com"];
-            const preEmails = ["farduswahid87@gmail.com", "atia.afroj5@gmail.com","labibasrabon109@gmail.com","raiyen1610@gmail.com","study.bd07@gmail.com","motiarrahman910848@gmail.com"];
+            const preEmails = ["farduswahid87@gmail.com", "atia.afroj5@gmail.com","labibasrabon109@gmail.com","raiyen1610@gmail.com","study.bd07@gmail.com","motiarrahman910848@gmail.com","abedaassistant@gmail.com"];
             const proUsers = ["omorbinfaruk346@gmail.com","shiblerrahman26@gmail.com","samimohammad2008@gmail.com"];
             const pmEmails = ["farduswahid31@gmail.com","najmossakibtanvir@gmail.com","najihatabassum9@gmail.com"];
 
