@@ -51,11 +51,6 @@ const Folder =  () => {
 <Mat link="https://docs.google.com/document/d/1oEaurdNat85mf7fs9IlVsnAtVF30YUaGQonaNGD29yU/edit?usp=sharing"/>
   
 </section>
-
-
-<br />
-
-
     </div>
   )
 }
