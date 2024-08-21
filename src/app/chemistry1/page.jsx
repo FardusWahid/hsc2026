@@ -9,8 +9,8 @@ const Folder = () => {
    
   return (
     <div className='select-none'>
-     <h2 className='chapterHeading w-5/6 m-auto mt-5 md:not-italic md:text-5xl md:tracking-tighter md:mt-0  text-4xl'>ACS Chemistry Cycle -01</h2> 
-<h1 className='text-center text-pink-500  text-lg md:text-xl max-lg:hidden font-sans md:mt-5 '>2026 Classes</h1>
+     <h2 className='chapterHeading  m-auto mt-5 md:text-5xl tracking-tight italic md:tracking-normal md:mt-0  text-4xl'>Chemistry Cycle-01</h2> 
+<h1 className='text-center text-pink-500  text-lg md:text-xl font-sans mt-3 md:mt-5'>2026 Classes</h1>
 
 <div>
 
@@ -36,7 +36,7 @@ const Folder = () => {
 
 
 
-<h1 className='font-sans capitalize text-center text-pink-300 text-lg md:text-xl italic my-5 md:my-8'>2025 archive </h1>
+<h1 className='font-sans capitalize text-center text-pink-300 text-lg md:text-xl  my-5 md:my-8'>2025 archive </h1>
 <div>
 
 <section>

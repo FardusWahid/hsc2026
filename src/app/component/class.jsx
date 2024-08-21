@@ -52,7 +52,7 @@ function Neo(props) {
           {currentVideos.map(video => (
 
             <div key={video.id} >
-  <p className='m-auto text-center text-[13px] tracking-tighter font-bold text-cyan-100 font-sans w-[350px] lg:w-[480px]'>{video.snippet.title}</p>
+  <p className='m-auto text-center text-[13px] mb-1 tracking-tighter font-bold font-sans w-[344px] lg:w-[477px] truncate whitespace-nowrap overflow-hidden active:whitespace-normal active:overflow-visible active:text-clip'>{video.snippet.title}</p>
 
 
 
@@ -78,7 +78,7 @@ className="ring-[.6px] ring-gray-800"
       {/* Pagination */}
       <div className="flex justify-center m-8 gap-2">
         {[...Array(Math.ceil(videos.length / videosPerPage))].map((_, index) => (
-          <button key={index} onClick={() => paginate(index + 1)} className={`mx-1 italic px-3 py-1 rounded-md ${currentPage === index + 1 ? 'bg-white ring-1 ring-white text-black font-extrabold' : 'bg-black ring-white ring-1 text-white  font-extrabold'}`}>
+          <button key={index} onClick={() => paginate(index + 1)} className={`mx-1 italic px-3 py-1 rounded-md ${currentPage === index + 1 ? 'bg-cyan-100 shadow-inner shadow-white text-black font-extrabold' : 'bg-gray-900 ring-white ring-[.7px] text-white  font-extrabold'}`}>
             {index + 1}
           </button>
         ))}
