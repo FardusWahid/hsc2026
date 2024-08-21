@@ -12,9 +12,10 @@ export const option = {
 
             let userRole = "unpaid";
             const adminEmails = ["applebyte87@gmail.com","araf55090@gmail.com","tasikurr1@gmail.com","yourmomxsenpai@gmail.com"];
-            const preEmails = ["farduswahid87@gmail.com", "atia.afroj5@gmail.com","labibasrabon109@gmail.com","raiyen1610@gmail.com","study.bd07@gmail.com","motiarrahman910848@gmail.com","abedaassistant@gmail.com","genz.acs2024@gmail.com","aryanabir4422@gmail.com","ctgshop10@gmail.com","debokisarkar00@gmail.com"];
+            const preEmails = ["farduswahid87@gmail.com", "atia.afroj5@gmail.com","labibasrabon109@gmail.com","raiyen1610@gmail.com","study.bd07@gmail.com","motiarrahman910848@gmail.com","genz.acs2024@gmail.com","aryanabir4422@gmail.com","ctgshop10@gmail.com","debokisarkar00@gmail.com"];
             const proUsers = ["omorbinfaruk346@gmail.com","shiblerrahman26@gmail.com","samimohammad2008@gmail.com"];
             const pmEmails = ["farduswahid31@gmail.com","najmossakibtanvir@gmail.com","najihatabassum9@gmail.com"];
+            const neanderthal = ["abedaassistant@gmail.com","wahidfardus37@gmail.com"]
 
             if(profile?.email && adminEmails.includes(profile.email)){
                 userRole= "paid";
@@ -24,6 +25,8 @@ export const option = {
                 userRole = "premium";
             }else if(profile?.email && pmEmails.includes(profile.email)){
                 userRole = "prime";
+            }else if(profile?.email && neanderthal.includes(profile.email)){
+                userRole = "Neanderthal"
             }
 
 

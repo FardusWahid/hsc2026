@@ -31,10 +31,7 @@ const MainPage = () => {
 <Mat link="https://tinyurl.com/56748489"/>
 
 
-
-<div className='flex justify-center mt-5'>
-  <p className='text-[16px] font-serif tracking-tighter md:tracking-normal'>Shareable link: <span className='select-all font-bold tracking-normal selection:bg-yellow-400 selection:text-black'>https://tinyurl.com/apple2026</span> </p>
-</div> <br />
+ <br />
     </div>
   );
 };

@@ -8,7 +8,9 @@ export default withAuth(
 
     if (
       req.nextUrl.pathname.startsWith("/chemistry1") &&
-      req.nextauth.token.role != "paid"
+      req.nextauth.token.role != "paid" &&
+      req.nextauth.token.role != "Neanderthal"
+
     ) {
       return NextResponse.rewrite(new URL("/denied", req.url));
     }
@@ -17,7 +19,9 @@ export default withAuth(
 if(req.nextUrl.pathname.startsWith("/physics1") && 
    
    req.nextauth.token.role != "premium" &&
-   req.nextauth.token.role != "prime"
+   req.nextauth.token.role != "prime" &&
+   req.nextauth.token.role != "Neanderthal"
+
   
   ){
     return NextResponse.rewrite(new URL('/denied', req.url));
